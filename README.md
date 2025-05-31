@@ -14,9 +14,6 @@ See [ARCSEC-Proof-of-Creation.md](./ARCSEC-Proof-of-Creation.md) for the full de
 
 For inquiries, contact Daniel Guzman at guzman.danield@outlook.com.
 ## License
-
-## License
-
 This project is dual-licensed under either:
 
 - [MIT License](./LICENSE-MIT)
