@@ -13,3 +13,13 @@ See [ARCSEC-Proof-of-Creation.md](./ARCSEC-Proof-of-Creation.md) for the full de
 ## Contact
 
 For inquiries, contact Daniel Guzman at guzman.danield@outlook.com.
+## License
+
+## License
+
+This project is dual-licensed under either:
+
+- [MIT License](./LICENSE-MIT)
+- [GNU General Public License v3.0 (GPLv3)](./LICENSE-GPLv3)
+
+You may use this project under the terms of **either** license.
