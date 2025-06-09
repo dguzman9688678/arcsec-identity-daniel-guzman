@@ -33,3 +33,17 @@ Imprint:
 Signature: ARCSEC :: Daniel Guzman  
 Proof-of-Origin: SHA-256 integrity hash  
 Revocable only by: Daniel Guzman
+
+/arcsec/
+  └─ arcsec_digital_imprint_daniel_guzman_timestamped.pdf
+  └─ arcsec_core.py
+  └─ signatures/
+  └─ crypto/
+/odin_llm/
+/mito_platform/
+/gui/
+/deployment/
+/docs/
+README.md
+LICENSE
+
