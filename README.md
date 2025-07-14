@@ -35,20 +35,20 @@ ArcSec Protocol is an enterprise-grade cryptographic security system designed to
 
 ArcSec enforces security and integrity through four primary cryptographically secured commands:
 
-1. **IMPRINT**
+1. **`IMPRINT`**
    - Establishes cryptographic command authority.
    - Generates a unique confirmation ID, SHA-256 hash, digital witness file.
    - Embeds Creator’s identity for tamper-evident command structures.
 
-2. **INJECT**
+2. **`INJECT`**
    - Integrates the core `arcsec_protocol.py` enforcement module and `identity.json`.
    - Verifies creator authority chain for robust protection.
 
-3. **FINALIZE**
+3. **`FINALIZE`**
    - Applies security hardening and generates a comprehensive SHA-256 fingerprint for the build.
    - Ensures integrity prior to deployment.
 
-4. **SEAL**
+4. **`SEAL`**
    - Creates a deployment package with:
      - Creator Identity (`creator`: "Daniel Guzman").
      - ARCSEC folder (`confirmation_id.txt`).
@@ -173,7 +173,8 @@ ArcSec Protocol organizes all required files using a standardized folder structu
 
 ## License
 
-_SEE LICENSE
+_Include your license information here._
+
 ---
 
 ## Contact
