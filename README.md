@@ -23,7 +23,6 @@ ArcSec Protocol is an enterprise-grade cryptographic security system designed to
 
 - **Automatic File Generation & Structured Storage:**  
   ArcSec Protocol automatically generates and stores all required JSON files—such as identity, manifest, signature, and witness files—in a strictly enforced folder structure for each intellectual and internet property (IP) deployment. This ensures clear organization, easy verification, and tamper-evident security for all assets.
-
 - **Stringent Validation:** Confirms authenticity and integrity of all intellectual and internet property within any deployment.
 - **Cryptographic Security:** Employs SHA-256 hashing, digital signatures, timestamping, and identity chain validation for uncompromised verification.
 - **Tamper-Evident Packaging:** Secures assets against unauthorized modification during distribution and deployment.
@@ -70,7 +69,6 @@ ArcSec enforces rigorous validation at every stage:
   - `manifest.json`
 - **Automatic JSON File Creation:**  
   All required JSON files (identity, manifest, witness, etc.) are programmatically generated and stored in the correct ARCSEC folder structure for each IP deployment, guaranteeing organized, discoverable, and verifiable property records.
-
 - **File Requirements Checklist:**
   - **Creator Name:** Embedded in all identity files.
   - **Signature:** SHA-256 verification in `sha256_signature.txt`.
@@ -103,6 +101,12 @@ ArcSec enforces rigorous validation at every stage:
 
 ---
 
+## Quality Assurance
+
+- Complete documentation ensures all intellectual property aspects are defined and protected.
+
+---
+
 ## Example: ARCSEC Folder and JSON Files
 
 ArcSec Protocol organizes all required files using a standardized folder structure for each IP deployment:
@@ -117,13 +121,15 @@ ArcSec Protocol organizes all required files using a standardized folder structu
     └── manifest.json
 ```
 
-- **confirmation_id.txt**: Unique session confirmation ID for the deployment.
-- **sha256_signature.txt**: SHA-256 cryptographic signature for integrity.
-- **digital_witness.json**: Immutable record of validation events and proof of state.
-- **identity.json**: Creator’s identity and authority chain (e.g., “Daniel Guzman”).
-- **manifest.json**: Complete inventory of all package contents and IP assets.
+- **confirmation_id.txt:** Unique session confirmation ID for the deployment.
+- **sha256_signature.txt:** SHA-256 cryptographic signature for integrity.
+- **digital_witness.json:** Immutable record of validation events and proof of state.
+- **identity.json:** Creator’s identity and authority chain (e.g., “Daniel Guzman”).
+- **manifest.json:** Complete inventory of all package contents and IP assets.
 
-#### Sample JSON File Contents
+---
+
+### Sample JSON File Contents
 
 **identity.json**
 ```json
@@ -162,12 +168,6 @@ ArcSec Protocol organizes all required files using a standardized folder structu
   ]
 }
 ```
-
----
-
-## Quality Assurance
-
-- Complete documentation ensures all intellectual property aspects are defined and protected.
 
 ---
 
